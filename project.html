@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--Starting stuff used shortcut-->
+    <link rel="stylesheet" href="project.css"> <!--connecting Css file to html file-->
+    <title>JavaScript Practice</title>
+</head>
+
+<body>
+    <header>
+        <h1>JavaScript Practice</h1>
+    </header>
+    <main>
+        <section id="ex">
+            <article>
+                <h2>Exchange</h2>
+              <div>
+                    <label for="factor1">Starting currency amount:</label>   <!--Label for text enrty-->
+                    <input type="text" id="factor1" name="factor1">           <!--creates the entry text box -->
+                </div>
+                <div>
+                    <label for="factor2">exchange rate:</label>        <!--same as above-->
+                    <input type="text" id="factor2" name="factor2">
+                </div>
+     <div>
+                    <input type="button" id="exchange" value="exchange">  <!--creates the button to do the caculation found in JS-->
+                </div>
+         <div>
+                    <label for="product">New Currency amount</label>
+                    <input type="text" id="product" name="product" disabled> <!--Displays the the results of the calculation in the text box-->
+                </div>
+            </article>
+        </section>
+
+<article>
+<h3>Recursion</h3>
+<div>
+    <label for="number">Number for Factorial:</label>
+    <input type="text" id="number" name="number">
+    <input type="button" id="factorialButton" value="Calculate Factorial"> <!--creates the button to do the caculation found in JS-->
+    <p id="factorialResult"></p>
+</div>
+</article>
+
+<article>
+<h4>Native Array ES6 functions</h4>
+<div>
+    <input type="button" id="arrayButton" value="Perform Array Operations"> <!--creates the button to do the caculation found in JS-->
+    <p id="mappedArray"></p>
+    <p id="filteredArray"></p>
+    <p id="sum"></p>
+</article>
+
+</section>
+
+    </main>
+    <footer>
+    </footer>
+    <!--Pulling the JQuery Libray to be used-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="project.js"></script> <!--Connects Js file to html-->
+</body>
