@@ -17,49 +17,54 @@
         <section id="ex">
             <article>
                 <h2>Exchange</h2>
-              <div>
-                    <label for="factor1">Starting currency amount:</label>   <!--Label for text enrty-->
-                    <input type="text" id="factor1" name="factor1">           <!--creates the entry text box -->
+                <div>
+                    <label for="num1">Starting currency amount:</label> <!--Label for text enrty-->
+                    <input type="text" id="num1" name="num1"> <!--creates the entry text box -->
                 </div>
                 <div>
-                    <label for="factor2">exchange rate:</label>        <!--same as above-->
-                    <input type="text" id="factor2" name="factor2">
+                    <label for="num2">exchange rate:</label> <!--same as above-->
+                    <input type="text" id="num2" name="num2">
                 </div>
-     <div>
-                    <input type="button" id="exchange" value="exchange">  <!--creates the button to do the caculation found in JS-->
+                <div>
+                    <input type="button" id="exchange" value="exchange">
+                    <!--creates the button to do the caculation found in JS-->
                 </div>
-         <div>
+                <div>
                     <label for="product">New Currency amount</label>
-                    <input type="text" id="product" name="product" disabled> <!--Displays the the results of the calculation in the text box-->
+                    <input type="text" id="product" name="product" disabled>
+                    <!--Displays the the results of the calculation in the text box-->
                 </div>
             </article>
         </section>
 
-<article>
-<h3>Recursion</h3>
-<div>
-    <label for="number">Number for Factorial:</label>
-    <input type="text" id="number" name="number">
-    <input type="button" id="factorialButton" value="Calculate Factorial"> <!--creates the button to do the caculation found in JS-->
-    <p id="factorialResult"></p>
-</div>
-</article>
+        <article>
+            <h3>Recursion</h3>
+            <div>
+                <label for="number">Number for Factorial:</label>
+                <input type="text" id="number" name="number">
+                <input type="button" id="factorialButton" value="Calculate Factorial">
+                <!--creates the button to do the caculation found in JS-->
+                <p id="factorialResult"></p>
+            </div>
+        </article>
 
-<article>
-<h4>Native Array ES6 functions</h4>
-<div>
-    <input type="button" id="arrayButton" value="Perform Array Operations"> <!--creates the button to do the caculation found in JS-->
-    <p id="mappedArray"></p>
-    <p id="filteredArray"></p>
-    <p id="sum"></p>
-</article>
+        <article>
+            <h4>Native Array ES6 functions</h4>
+            <div>
+                <input type="button" id="arrayButton" value="Perform Array Operations">
+                <!--creates the button to do the caculation found in JS-->
+                <p id="mappedArray"></p>
+                <p id="filteredArray"></p>
+                <p id="sum"></p>
+        </article>
 
-</section>
+        </section>
 
     </main>
     <footer>
     </footer>
-    <!--Pulling the JQuery Libray to be used-->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!--Pulling the JQuery Library to be used-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="project.js"></script> <!--Connects Js file to html-->
 </body>

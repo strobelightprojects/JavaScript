@@ -5,15 +5,16 @@
 const multiply = (number1, number2) => number1 * number2; //The multiplcation when converting currency
 
 const multiplyNumbers = () => {
-    let factor1 = parseFloat(document.querySelector('#factor1').value);     // Setting the value in Html
-    let factor2 = parseFloat(document.querySelector('#factor2').value);
-    let result = multiply(factor1, factor2);
-    document.querySelector('#product').value = result; }
-    document.querySelector('#exchange').addEventListener('click', multiplyNumbers); //gives functionality to the button
+    let num1 = parseFloat(document.querySelector('#num1').value);     // Setting the value in Html
+    let num2 = parseFloat(document.querySelector('#num2').value);
+    let result = multiply(num1, num2);
+    document.querySelector('#product').value = result;
+}
+document.querySelector('#exchange').addEventListener('click', multiplyNumbers); //gives functionality to the button
 
 //Recursion 
 const factorial = (n) => {      //factorial calculations using recursion
-    if (n === 0 || n === 1) {           
+    if (n === 0 || n === 1) {
         return 1;
     } else {
         return n * factorial(n - 1);
@@ -45,7 +46,10 @@ const arrayOperations = () => {
 
 document.querySelector('#arrayButton').addEventListener('click', arrayOperations);//gives functionality to the button
 
-//Javascript libaray requirement using JQuerey and CSS Dom streach challenge
-var exchange =$("#ex");
-exchange.css({color: "blue"});
+//Javascript library requirement using JQuerey and CSS Dom streach challenge
+var exchange = $("#ex");
+exchange.css({ color: "blue" });
+
+
+
 

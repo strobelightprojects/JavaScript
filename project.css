@@ -1,12 +1,15 @@
- body{
-text-align: center; /*aligns the whole body to the center*/
- } 
- 
- h1{                 /*changes the first heading to font size 48 and to the color black */
-font-size: 48px;
-color: black;
-  }
+body {
+  text-align: center; /*aligns the whole body to the center*/
+}
 
-h2, h3, h4{                 /*changes the rest of the heading font size and color*/
-    font-size: 30px;
-    color: black;}
+h1 {
+  /*changes the first heading to font size 48 and to the color black */
+  font-size: 48px;
+  color: black;
+}
+
+h2,h3, h4 {
+  /*changes the rest of the heading font size and color*/
+  font-size: 30px;
+   color: black;
+}
